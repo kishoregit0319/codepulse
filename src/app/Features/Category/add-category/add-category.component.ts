@@ -12,8 +12,8 @@ model:AddCategoryRequest;
 private addCategorySubscribe?:Subscription;
 constructor(private categoryService:CategoryService){
   this.model = {
-    name:'',
-    urlHandle:''
+    Name:'',
+    UrlHandle:''
   }
 }
   ngOnDestroy(): void {
